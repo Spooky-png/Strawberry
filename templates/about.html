@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+{% block aboutactive %}active{% endblock aboutactive %}
+{% block title %}
+About
+{% endblock title %}
+{% block body %}
+    <div class="container">
+        <h2 class="text-center my-3">About Me</h2>
+        <div class="row">
+            <div class="col md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://source.unsplash.com/500x300/?kaiju,godzilla" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Developer</h5>
+                        <p class="card-text">This is the bulk of my programming experience. I've developed numerous apps for personal projects and practice. I love the endless possibilities being a developer offers me!</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://source.unsplash.com/500x300/?kaiju,godzilla" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Discord Developer</h5>
+                        <p class="card-text">I've developed a few different discordbots as a hobby. Once their more developed I'll link them in my projects tab.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://source.unsplash.com/500x300/?kaiju,godzilla" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Machine Learning</h5>
+                        <p class="card-text">I am interested in machine learning but my journey here is just beginning. If you have any novice project ideas or pointers, feel free to send me a message in the contact me tab!</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <h1 class="my-4">Cool Video</h1>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ITeR2Zx9GcI?rel=0" allowfullscreen></iframe>
+          </div>
+          <p>If some artist or a writer starts to tell you about the deep meaning of their work, don't believe them. There is only two things they can write about, themselves or their issues, and this woman had a lot of issues.</p>
+    </div>
+    {% endblock body %}
