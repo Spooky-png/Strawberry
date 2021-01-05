@@ -5,5 +5,5 @@ h2{
     color: black;
 }
 #homeBackground {
-    background-color: darkred;
+    background: linear-gradient(to bottom, #990000 0%, #ffffff 100%);
 }
